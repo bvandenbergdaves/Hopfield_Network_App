@@ -30,7 +30,7 @@ def randomIsing(size: int) -> np.array:
 
 
 class DiscreteHopfield:
-    def __init__(self, shape: int or tuple(int)):
+    def __init__(self, shape: int | tuple[int]):
         # immutable
         self.size = shape if isinstance(shape, int) else shape[0] * shape[1]
 
